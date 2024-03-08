@@ -21,7 +21,7 @@ function App() {
           <Route path="/contact" Component={() => <Contact name="Contact" />} />
 
           {/* using component prop the whole component get created after every render,
-              to render the component only if props get changed the use render prop  */}
+              to render the component only if props get changed, use render prop  */}
           <Route path="/services" render={() => <Services name="Services" />} />
         </Routes>
       </div>
